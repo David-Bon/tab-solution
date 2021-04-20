@@ -1,0 +1,33 @@
+.textEl {
+    display: flex;
+    margin: 2vh 5vh 2vh 5vh;
+}
+
+.active {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 2vh;
+    line-height: 250%;
+}
+
+.active:disabled {
+    background: transparent;
+    color: #AFAFAF
+}
+
+.active:hover {
+    background: #E0E0E0;
+}
+
+.activeNow {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background: #CFE5FF;
+    color: #527AAA;
+    font-weight: bold;
+    font-size: 2vh;
+    line-height: 250%;
+}
