@@ -9,12 +9,12 @@
     border-top: 2px solid #d4d3d3;
     border-bottom: 2px solid #d4d3d3;
     width: 100vw;
-    height: 8vh;
+    height: 6vh;
     overflow-x: auto;
     overflow-y: hidden;
     align-content: space-between;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     background-image: linear-gradient(to right, #E5E5E5, #E5E5E5),
     linear-gradient(to right, #E5E5E5, #E5E5E5),
     linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0)),

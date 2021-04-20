@@ -1,6 +1,8 @@
 .textEl {
     display: flex;
-    margin: 2vh 5vh 2vh 5vh;
+margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .active {
@@ -9,7 +11,8 @@
     border: none;
     border-radius: 2px;
     font-size: 2vh;
-    line-height: 250%;
+    width: max-content;
+    line-height: 200%
 }
 
 .active:disabled {
@@ -29,5 +32,6 @@
     color: #527AAA;
     font-weight: bold;
     font-size: 2vh;
-    line-height: 250%;
+    width: max-content;
+    line-height: 200%
 }
